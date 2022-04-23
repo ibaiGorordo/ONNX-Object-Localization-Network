@@ -4,6 +4,9 @@
 ![!Object-Localization-Network](https://github.com/ibaiGorordo/ONNX-Object-Localization-Network/blob/main/doc/img/output.jpg)
 *Original image: https://en.wikipedia.org/wiki/File:Interior_design_865875.jpg*
 
+# Important
+- I added a bit of logic to the box color selection to make it look nicer. Since it performs K-Means for each box, it might be slow. If you only care about speed, you can either set all the boxes to the same color or use random colors.
+
 # Requirements
 
  * Check the **requirements.txt** file. 
